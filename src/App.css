@@ -22,7 +22,7 @@ body {
 
 .headerContainer > img {
   width : 90px;
-  margin-top : 20px;
+  margin-top : 50px;
 }
 
 h1 {
@@ -116,6 +116,16 @@ small {
 }
 
 @media screen and (min-width : 1400px) {
+  h1 {
+    font-size : 40px;
+    margin-top: 1em;
+  }
+  p {
+    font-size: 18px;
+  }
+  .heroImage {
+    width : 700px;
+  }
   form {
     position : relative;
     flex-direction: row;
@@ -133,6 +143,5 @@ small {
     left : 9em;
     top : 3em;
   }
-
 
 }
