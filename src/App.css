@@ -1,3 +1,4 @@
+/* root */
 * {
   box-sizing: border-box;
 }
@@ -6,6 +7,7 @@ body {
   font-family: 'Libre Franklin',sans-serif;
 }
 
+/* main content */
 .mainContainer {
   display : flex;
   flex-direction: column;
@@ -114,6 +116,8 @@ small {
   margin-top : 2em;
   color : hsl(0, 0%, 59%);
 }
+
+/* querries */
 
 @media screen and (min-width : 1400px) {
   h1 {

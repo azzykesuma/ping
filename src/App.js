@@ -5,6 +5,7 @@ import heroImg from './images/illustration-dashboard.png'
 import {FaFacebookF,FaTwitter,FaInstagram} from 'react-icons/fa'
 
 function App() {
+  // form function
   const [email,setEmail] = useState('')
   const [error,setError] = useState(false)
 
